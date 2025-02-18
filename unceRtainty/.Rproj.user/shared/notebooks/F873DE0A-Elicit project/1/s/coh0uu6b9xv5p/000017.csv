@@ -1,0 +1,2 @@
+"0","merged_df <- merge(elicit, sibo_data, by = ""pid"", all = TRUE)"
+"0","head(merged_df)"

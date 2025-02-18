@@ -1,0 +1,2 @@
+"0","#table(merged_df$latrine_access)"
+"0","#prop.table(table(merged_df$latrine_access))"

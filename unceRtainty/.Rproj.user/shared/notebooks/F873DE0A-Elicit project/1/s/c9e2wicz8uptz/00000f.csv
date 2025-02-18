@@ -1,0 +1,4 @@
+"0","ggplot(participants_df, aes(x = impute_mthr_height)) +"
+"0","  geom_histogram(binwidth = 1, fill = ""blue"", color = ""black"") +"
+"0","  labs(title = ""Histogram of Mother's Height (cm)"", x = ""impute_mthr_height"", y = ""Frequency"") +"
+"0","  theme_minimal()"

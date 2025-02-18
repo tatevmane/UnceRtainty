@@ -1,0 +1,7 @@
+"0","participants_df <- participants_df %>% "
+"0","  mutate(mothered_7yrs=case_when("
+"0","    cef_mother_school_years>=7 ~ 1,"
+"0","    cef_mother_school_years<7 ~ 0,"
+"0","    is.na(cef_mother_school_years) ~ 99"
+"0","  ))"
+"0","participants_df$mothered_7yrs[participants_df$mothered_7yrs==99] <- NA"

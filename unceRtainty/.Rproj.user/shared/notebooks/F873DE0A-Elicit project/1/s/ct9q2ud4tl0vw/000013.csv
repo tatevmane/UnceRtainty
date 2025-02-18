@@ -1,0 +1,3 @@
+"0","prevplot_df <- merged_df[c('C.coli.result_6','C.coli.result_9','C.coli.result_12','C.coli.result_15','C.coli.result_18','C.concisus.result_6','C.concisus.result_9','C.concisus.result_12','C.concisus.result_15','C.concisus.result_18','C.infans.result_6','C.infans.result_9','C.infans.result_12','C.infans.result_15','C.infans.result_18','C.jejuni.result_6','C.jejuni.result_9','C.jejuni.result_12','C.jejuni.result_15','C.jejuni.result_18','C.troglodytis.result_6','C.troglodytis.result_9','C.troglodytis.result_12','C.troglodytis.result_15','C.troglodytis.result_18','C.upsaliensis.result_6','C.upsaliensis.result_9','C.upsaliensis.result_12','C.upsaliensis.result_15','C.upsaliensis.result_18')]"
+"0",""
+"0","head(prevplot_df)"

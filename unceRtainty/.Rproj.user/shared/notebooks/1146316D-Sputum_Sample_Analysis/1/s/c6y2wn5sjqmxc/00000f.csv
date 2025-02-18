@@ -1,0 +1,3 @@
+"0","# if text in dst_result not na, fill dst with 1. otherwise, 0. "
+"0","df <- df %>%"
+"0","  mutate(DST = if_else(is.na(DST_result), 0, 1))"

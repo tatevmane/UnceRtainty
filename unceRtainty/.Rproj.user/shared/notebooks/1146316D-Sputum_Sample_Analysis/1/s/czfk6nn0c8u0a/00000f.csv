@@ -1,0 +1,3 @@
+"0","# Creating a new column based on conditions in the Bacterial_isolate column"
+"0","df <- df %>%"
+"0"," mutate(Stain_result = ifelse(grepl(""staph|strep"", Bacterial_isolate, ignore.case = TRUE), ""positive"", ""negative""))"

@@ -1,0 +1,5 @@
+"0","# Assuming 'table1' is a function from a specific package you are using (e.g., 'tableone')
+# Generate the table
+table1(~ gender+iaf_age+firstborn+iaf_borninhosp+impute_mthr_height | participant_400, data = merged_df, extra.col = list(`P-value` = pvalue))
+"
+"2","Warning: Terms to the right of '|' in formula 'x' define table columns and are expected to be factors with meaningful labels."

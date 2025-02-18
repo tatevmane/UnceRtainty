@@ -1,0 +1,4 @@
+"0","ggplot(participants_df, aes(x = iaf_age)) +"
+"0","  geom_histogram(binwidth = 1, fill = ""blue"", color = ""black"") +"
+"0","  labs(title = ""Histogram of Maternal Age"", x = ""iaf_age"", y = ""Frequency"") +"
+"0","  theme_minimal()"

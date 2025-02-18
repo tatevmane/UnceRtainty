@@ -1,0 +1,69 @@
+"0","setwd(""/Users/tatevgomtsyan/TB_Research"")"
+"0",""
+"0","results_23 <- read_csv(""2023_results.csv"")"
+"2","[1mRows: [22m[34m7240[39m [1mColumns: [22m[34m11[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m───────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (7): Patient, Sex, Sample Taken, Test (both isoalate and drugs), Word (results for the growth), (DST results), Growth
+[32mdbl[39m (3): PID, Age, Year
+[33mlgl[39m (1): DST"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","results_22 <- read_csv(""2022_results.csv"")"
+"2","[1mRows: [22m[34m1412[39m [1mColumns: [22m[34m11[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m───────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (7): Patient, Sex, Sample Taken, Test (both isoalate and drugs), Word (results for the growth), (DST results), Growth
+[32mdbl[39m (3): PID, Age, Year
+[33mlgl[39m (1): DST"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","results_21 <- read_csv(""2021_results.csv"")"
+"2","[1mRows: [22m[34m1192[39m [1mColumns: [22m[34m11[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m───────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (7): Patient, Sex, Sample Taken, Test (both isoalate and drugs), Word (results for the growth), (DST results), Growth
+[32mdbl[39m (2): PID, Age
+[33mlgl[39m (2): Year, DST"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","results_20 <- read_csv(""2020_copy.csv"")"
+"2","Warning: [38;5;232mOne or more parsing issues, call `problems()` on your data frame for details, e.g.:
+  dat <- vroom(...)
+  problems(dat)[39m"
+"2","[1mRows: [22m[34m7241[39m [1mColumns: [22m[34m11[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m───────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (7): Patient, Sex, Sample Taken, Test (both isoalate and drugs), Word (results for the growth), (DST results), Growth
+[32mdbl[39m (3): PID, Age, Year
+[33mlgl[39m (1): DST"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","results_19 <- read_csv(""2019_copy.csv"")"
+"2","[1mRows: [22m[34m1102[39m [1mColumns: [22m[34m11[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m───────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (7): Patient, Sex, Sample Taken, Test (both isoalate and drugs), Word (results for the growth), (DST results), Growth
+[32mdbl[39m (3): PID, Age, Year
+[33mlgl[39m (1): DST"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","results_18 <- read_csv(""2018_copy.csv"")"
+"2","New names:"
+"2","Warning: [38;5;232mOne or more parsing issues, call `problems()` on your data frame for details, e.g.:
+  dat <- vroom(...)
+  problems(dat)[39m"
+"2","[1mRows: [22m[34m7223[39m [1mColumns: [22m[34m35[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m───────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m  (5): Sex, Sample_type, Sample_collection_date, Bacterial isolate, Stain_result
+[32mdbl[39m  (4): PID, Age, Year, DST (0= Not done, 1= Done)
+[33mlgl[39m (26): Amikacin, Amoxyclav, Ampicillin, Azithromycin, Ceftazidime, Cefixime, Cefotaxine, Cefoxitin, Ceftriaxone, Cep..."
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."

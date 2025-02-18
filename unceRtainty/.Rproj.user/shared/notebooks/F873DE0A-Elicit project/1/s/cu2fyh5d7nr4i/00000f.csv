@@ -1,0 +1,7 @@
+"0","merged_df <- merged_df %>% "
+"0","  mutate(mothered_7yrs=case_when("
+"0","    cef_mother_school_years>=7 ~ 1,"
+"0","    cef_mother_school_years<7 ~ 0,"
+"0","    is.na(cef_mother_school_years) ~ 99"
+"0","  ))"
+"0","merged_df$mothered_7yrs[merged_df$mothered_7yrs==99] <- NA"

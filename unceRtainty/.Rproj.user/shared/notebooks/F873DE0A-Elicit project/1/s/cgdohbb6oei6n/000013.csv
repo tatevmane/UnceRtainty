@@ -1,0 +1,8 @@
+"0","# Create the faceted bar plot"
+"0","ggplot(tb_summary, aes(x = age, y = avg_load)) +"
+"0","  geom_bar(stat = ""identity"") +"
+"0","  facet_wrap(~ pathogen, scales = ""free_y"") +"
+"0","  theme_minimal() +"
+"0","  labs(title = ""Proportion of Positive PCR Results Between 6 and 18 Months"","
+"0","       x = ""Infant Age at Time of Measurement (in months)"","
+"0","       y = ""Average Pathogen Load"")"

@@ -1,0 +1,4 @@
+"0","ggplot(participants_df, aes(x = irs_ran_subgroup_anti)) +"
+"0","  geom_bar(fill = ""blue"", color = ""black"") +"
+"0","  labs(title = ""Bar chart of irs_ran_subgroup_anti"", x = ""irs_ran_subgroup_anti"", y = ""Frequency"") +"
+"0","  theme_minimal()"

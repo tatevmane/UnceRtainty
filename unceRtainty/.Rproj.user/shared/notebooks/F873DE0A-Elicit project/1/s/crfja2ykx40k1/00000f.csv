@@ -1,0 +1,6 @@
+"0","#generate new variable"
+"0","#merged_df <- merged_df %>% "
+"0","#  mutate(latrine_access = case_when("
+"0","#    cef_toilet==1 ~ 0,"
+"0","#    cef_toilet==2|cef_toilet==3|cef_toilet==4|cef_toilet==5 ~ 1"
+"0","#  ))"

@@ -1,0 +1,4 @@
+"0","ggplot(participants_df, aes(x = wami)) +"
+"0","  geom_histogram(binwidth = 1, fill = ""blue"", color = ""black"") +"
+"0","  labs(title = ""Histogram of WAMI"", x = ""wami"", y = ""Frequency"") +"
+"0","  theme_minimal()"

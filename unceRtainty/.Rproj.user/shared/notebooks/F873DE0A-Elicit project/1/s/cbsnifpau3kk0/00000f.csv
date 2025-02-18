@@ -1,0 +1,7 @@
+"0","# Summarize by time and calculate the average or median load"
+"0","tb_summary <- tb_long %>%"
+"0","  group_by(age, pathogen) %>%"
+"0","  summarize("
+"0","    avg_load = mean(load, na.rm = TRUE),  # Average pathogen load (here equal to the proportion positive because 0s and 1s)"
+"0","    .groups = 'drop'"
+"0","  )"
