@@ -76,4 +76,4 @@ License
 This project is licensed under the MIT License.
 
 Acknowledgements
-Developed by Ethan Assefa, Thomas Burrell, and Tatev Gomtsyan.
+Developed by Tatev Gomtsyan, Ethan Assefa, and Thomas Burrell.
